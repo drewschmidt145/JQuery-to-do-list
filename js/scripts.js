@@ -13,5 +13,13 @@ function newItem(){
         $('#list').append(li);
     }
 
+    // #2
+    function crossOut() {
+        li.toggleClass('strike');
+    }
+
+    li.on("dblclick", function crossOut() {
+		li.toggleClass("strike");
+	});
 
 }
